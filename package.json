@@ -1,0 +1,35 @@
+{
+  "name": "inspire-me",
+  "version": "1.0.0",
+  "description": "Daily inspirational quote on terminal",
+  "main": "cli.js",
+  "bin": {
+    "inspire-me": "./cli.js"
+  },
+  "homepage": "https://github.com/yujinlim/inspire-me",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yujinlim/inspire-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yujinlim/inspire-me/issues"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "inspire",
+    "inspiration",
+    "quote"
+  ],
+  "author": {
+    "name": "Yu Jin",
+    "email": "adamlyj89@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "forbes-quote": "^1.0.0",
+    "meow": "^3.7.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
